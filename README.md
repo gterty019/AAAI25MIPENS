@@ -48,6 +48,25 @@ Weighting schemes introduced in our paper are applied:
 **Uncomment and customize the inference lines to use generated weights for evaluation:****
 python3 "$inference_scripts_folder/2_INFERENCE_ALGORITHM.py" --dataset $input_file --weights 0.12,0.12,... --output "$results_folder/1_NSL_UW.csv"
 
+**RESULTS**
+All generated weights and inference results are saved in respective folders.
+**WEIGHTS**: Contains weight files like UW_D1_LEAKDB.txt.
+**RESULTS**: Contains inference outputs like 1_NSL_UW.csv.
+
+**Running Example**
+By setting in RUN.sh the **dataset_code_number="D2_NSL_KDD"**
+**The script will:**
+1. Process D2_NSL_KDD.csv.
+2. Generate intermediate files: D2_NSL_KDD_ACC.csv and D2_NSL_KDD_ACCURACIES.csv.
+3. Compute weights and save them in the **WEIGHTS** folder.
+4. Run inference and compute results saved in **RESULTS** folder.
+
+At the end of the script, you will see:
+   **Script execution completed.**
+
+
+
+
 
 
 
