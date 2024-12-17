@@ -10,15 +10,15 @@ The experimental results reveal that MIP outperforms all existing approaches, ac
 Furthermore, it attains an overall average increase of 4.63%, 4.60%, and 4.61% in macro-averaged precision, recall, and F1-score, respectively, while maintaining computational efficiency.
 
 # Source Code Availability
-The complete source code used in this research, including scripts for training and weight computation and inference, is available in this repository to ensures the reproducibility of our results, and provide a practical foundation for further research and development based on our work.
+The complete source code used in this research, including scripts for training, weight computation, and inference, is available in this repository to ensure the reproducibility of our results and provide a practical foundation for further research and development based on our work.
 
 # Prerequisites
 1. **Bash** **Shell**: Ensure you have a Bash-compatible shell to execute the script.
 2. **Python 3.x:** The script calls several Python scripts. Ensure Python 3 is installed and accessible via python3.
 3. **Python Dependencies:** Install any required libraries for the Python scripts. Common dependencies include:
-   -> numpy
-   -> pandas
-   -> scikit-learn
+   - numpy
+   - pandas
+   - scikit-learn
    
 # Datasets
 1. **LeakDB**: https://zenodo.org/records/13985057
