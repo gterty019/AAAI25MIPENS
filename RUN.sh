@@ -56,7 +56,7 @@ python3 "$weight_scripts_folder/4_BMA.py" $output_file > "$weights_folder/BMA_${
 echo "MIP & Elastic Net Weighting Per Algorithm Class (MIPEN)"
 python3 "$weight_scripts_folder/5_MIP.py" $output_file > "$weights_folder/MIPEN_${dataset_code_number}.txt"
 
-# Computing Inference Using Various Weighting Schemes
+# Computing Inference Using Various Weighting Schemes (This is an example change accordingly with the generated weights) comment out to run each line below
 #python3 "$inference_scripts_folder/2_INFERENCE_ALGORITHM.py" --dataset $input_file --weights 0.12,0.12,0.12,0.12,0.12,0.12,0.12,0.12 --output "$results_folder/1_NSL_UW.csv"
 #python3 "$inference_scripts_folder/2_INFERENCE_ALGORITHM.py" --dataset $input_file --weights 0.15,0.13,0.13,0.13,0.12,0.12,0.12,0.12 --output "$results_folder/1_NSL_WA.csv"
 #python3 "$inference_scripts_folder/2_INFERENCE_ALGORITHM.py" --dataset $input_file --weights 0.12,0.12,0.12,0.12,0.12,0.12,0.12,0.12 --output "$results_folder/1_NSL_DE.csv"
