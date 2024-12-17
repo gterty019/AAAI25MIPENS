@@ -29,8 +29,27 @@ The complete source code used in this research, including scripts for training a
 # Execution
 In order to execute the code you need to run the RUN.sh if is required to change permission for the execution use the **chmod +x RUN.sh**
 
-# Workflow
-Step 1: Training & Accuracy Matrix Computation
-1. Input dataset (e.g., D1_LEAKDB.csv) is processed using stratified k-folds (in our case **k=5**)
-2. Unnecessary lines are removed to produce the accuracy matrix for the algorithms (**V**)
-3. 
+# Workflow of RUN.sh
+**Step 1:** Training & Accuracy Matrix Computation
+1. Input dataset (e.g., D1_LEAKDB.csv) is trained for a set of classifiers using stratified k-folds (in our case **k=5**)
+2. Unnecessary lines are removed to produce the accuracy matrix for the classifiers
+
+**Step 2:** Weight Computation
+Weighting schemes introduced in our paper are applied:
+1.   Uniform Weighting Per Classifier (UW)
+2.   Uniform Weighting Per Classifier Class (UW_PCA)
+3.   Accuracy-based Weighting Per Classifier (WA)
+4.   Accuracy-based Weighting Per Classifier Class (WA_PCA)
+5.   Differential Evaluation Weighting (DE)
+6.   Bayesian Model Averaging (BMA)
+7.   **MIP & Elastic Net Weighting (MIPEN)**
+
+**Step 3:** Inference
+**Uncomment and customize the inference lines to use generated weights for evaluation:****
+python3 "$inference_scripts_folder/2_INFERENCE_ALGORITHM.py" --dataset $input_file --weights 0.12,0.12,... --output "$results_folder/1_NSL_UW.csv"
+
+
+
+
+
+
