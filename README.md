@@ -58,10 +58,10 @@ All generated weights and inference results are saved in respective folders.
 **Running Example**
 By setting in RUN.sh the **dataset_code_number="D2_NSL_KDD"**
 **The script will:**
-1. Process D2_NSL_KDD.csv.
-2. Generate intermediate files: D2_NSL_KDD_ACC.csv and D2_NSL_KDD_ACCURACIES.csv.
-3. Compute weights and save them in the **WEIGHTS** folder.
-4. Run inference and compute results saved in **RESULTS** folder.
+1. Process **D2_NSL_KDD.csv**
+2. Generate intermediate files: **D2_NSL_KDD_ACC.csv** and **D2_NSL_KDD_ACCURACIES.csv**
+3. Compute weights and save them in the **WEIGHTS** folder
+4. Run inference and compute results saved in **RESULTS** folder
 
 At the end of the script, you will see:
    **Script execution completed.**
