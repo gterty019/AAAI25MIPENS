@@ -45,7 +45,7 @@ Weighting schemes introduced in our paper are applied:
 7.   **MIP & Elastic Net Weighting (MIPEN)**
 
 **Step 3:** Inference
-**Uncomment and customize the inference lines to use generated weights for evaluation:****
+**Uncomment and customize the inference lines to use generated weights for evaluation:**
 python3 "$inference_scripts_folder/2_INFERENCE_ALGORITHM.py" --dataset $input_file --weights 0.12,0.12,... --output "$results_folder/1_NSL_UW.csv"
 
 **RESULTS**
