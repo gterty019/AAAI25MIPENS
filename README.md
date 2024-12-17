@@ -14,7 +14,7 @@ The complete source code used in this research, including scripts for training, 
 
 # Prerequisites
 1. **Bash** **Shell**: Ensure you have a Bash-compatible shell to execute the script.
-2. **Python 3.x:** The script calls several Python scripts. Ensure Python 3 is installed and accessible via python3.
+2. **Python 3.x:** The shell script calls several Python scripts. Ensure Python 3 is installed and accessible via python3.
 3. **Python Dependencies:** Install any required libraries for the Python scripts. Common dependencies include:
    - numpy
    - pandas
@@ -27,7 +27,11 @@ The complete source code used in this research, including scripts for training, 
 4. **CIC-IDS2017**: https://www.unb.ca/cic/datasets/ids-2017.html
 
 # Execution
-In order to execute the code you need to run the RUN.sh if is required to change permission for the execution use the **chmod +x RUN.sh**
+To execute the code, run the `RUN.sh` script. If you need to change permissions for execution, use the following command:
+
+```bash
+chmod +x RUN.sh
+```
 
 # Workflow of RUN.sh
 **Step 1:** Training & Accuracy Matrix Computation
