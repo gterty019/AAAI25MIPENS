@@ -29,10 +29,10 @@ mkdir -p $weights_folder
 mkdir -p $results_folder
 
 # Computing Weights Using Uniform Weighting Scheme
-#echo "Stratified k-Folds (k=5) Using a Set of Classifiers"
-#python3 "$accuracy_scripts_folder/0_1_STRATIFIED_KFOLDS.py" $input_file $mid_file
-#echo "Exclude Unnecessary lines from the middle file (produced) "
-#python3 "$accuracy_scripts_folder/0_2_EXCLUDE_UNNEED.py" $mid_file $output_file
+echo "Stratified k-Folds (k=5) Using a Set of Classifiers"
+python3 "$accuracy_scripts_folder/0_1_STRATIFIED_KFOLDS.py" $input_file $mid_file
+echo "Exclude Unnecessary lines from the middle file (produced) "
+python3 "$accuracy_scripts_folder/0_2_EXCLUDE_UNNEED.py" $mid_file $output_file
 #rm  $mid_file
 
 echo "Uniform Weighting Per Algorithm (UW)"
