@@ -50,7 +50,9 @@ python3 "$inference_scripts_folder/2_INFERENCE_ALGORITHM.py" --dataset $input_fi
 
 **RESULTS**
 All generated weights and inference results are saved in respective folders.
+
 **WEIGHTS**: Contains weight files like UW_D1_LEAKDB.txt.
+
 **RESULTS**: Contains inference outputs like 1_NSL_UW.csv.
 
 **Running Example**
