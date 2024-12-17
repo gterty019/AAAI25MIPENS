@@ -64,7 +64,8 @@ By setting in RUN.sh the **dataset_code_number="D2_NSL_KDD"**
 4. Run inference and compute results saved in **RESULTS** folder
 
 At the end of the script, you will see:
-   **Script execution completed.**
+
+**Script execution completed.**
 
 
 
