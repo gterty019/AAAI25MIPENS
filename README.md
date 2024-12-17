@@ -25,3 +25,12 @@ The complete source code used in this research, including scripts for training a
 2. **NSL-KDD**: https://www.unb.ca/cic/datasets/nsl.html
 3. **SG-MITM**: https://zenodo.org/records/8375657
 4. **CIC-IDS2017**: https://www.unb.ca/cic/datasets/ids-2017.html
+
+# Execution
+In order to execute the code you need to run the RUN.sh if is required to change permission for the execution use the **chmod +x RUN.sh**
+
+# Workflow
+Step 1: Training & Accuracy Matrix Computation
+1. Input dataset (e.g., D1_LEAKDB.csv) is processed using stratified k-folds (in our case **k=5**)
+2. Unnecessary lines are removed to produce the accuracy matrix for the algorithms (**V**)
+3. 
