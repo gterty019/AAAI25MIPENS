@@ -11,14 +11,15 @@ The complete source code used in this research, including scripts for training, 
 1. **Bash** **Shell**: Ensure you have a Bash-compatible shell to execute the script.
 2. **Python 3.x:** The shell script calls several Python scripts. Ensure Python 3 is installed and accessible via python3.
 3. **Python Dependencies:** Install any required libraries for the Python scripts. Common dependencies include:
-   - numpy
-   - pandas
-   - scikit-learn
+   - numpy (https://numpy.org/)
+   - pandas (https://pandas.pydata.org/)
+   - scikit-learn (https://scikit-learn.org/stable/)
+   - gurobipy (https://support.gurobi.com/hc/en-us/articles/360044290292-How-do-I-install-Gurobi-for-Python) 
    
 # Datasets
-1. **LeakDB**: https://zenodo.org/records/13985057
+1. **LeakDB**: https://zenodo.org/records/13985057 (Check also **DATASETS** folder for the .csv due to some modifications we perform)
 2. **NSL-KDD**: https://raw.githubusercontent.com/HoaNP/NSL-KDD-DataSet/refs/heads/master/KDDTrain%2B_20Percent.txt
-3. **SG-MITM**: https://zenodo.org/records/8375657
+3. **SG-MITM**: https://zenodo.org/records/8375657 ((Check also **DATASETS** folder for the .csv due to some modifications we perform)
 4. **CIC-IDS2017**: https://www.unb.ca/cic/datasets/ids-2017.html
 
 # Execution
@@ -65,6 +66,9 @@ By setting in RUN.sh the **dataset_code_number="D2_NSL_KDD"**
 At the end of the script, you will see:
 
 **Script execution completed.**
+
+# Contact
+For queries, feel free to raise an issue in the GitHub repository or contact the maintainers directly.
 
 
 
