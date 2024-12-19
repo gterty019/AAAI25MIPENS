@@ -38,14 +38,14 @@ chmod +x RUN.sh
 2. Unnecessary lines are removed to produce the accuracy matrix for the classifiers
 
 **Step 2:** Weight Computation
-Weighting schemes introduced in our paper are applied:
-1.   Uniform Weighting Per Classifier (UW)
-2.   Uniform Weighting Per Classifier Class (UW_PCA)
-3.   Accuracy-based Weighting Per Classifier (WA)
-4.   Accuracy-based Weighting Per Classifier Class (WA_PCA)
-5.   Differential Evaluation Weighting (DE)
+The following weighting schemes are applied, as explained in our paper:
+1.   Uniform Weights Per Classifier (UW, UW-PC in our paper)
+2.   Uniform Weights Per Classifier-Class (UW_PCA, UW-PCC in our paper)
+3.   Weighted Average Based on Normalized Accuracy Per Classifier (WA, WA-PC in our paper)
+4.   Weighted Average Based on Normalized Accuracy Per Classifier-Class (WA_PCA, WA-PCC in our paper)
+5.   Differential Evolution (DE)
 6.   Bayesian Model Averaging (BMA)
-7.   **MIP & Elastic Net Weighting (MIPEN)**
+7.   **MIP incorporating Elastic Net Regularization (MIPEN, MIP in our paper)**
 
 **Step 3:** Inference
 **Uncomment and customize the inference lines to use generated weights for evaluation:**
