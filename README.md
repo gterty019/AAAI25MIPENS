@@ -68,7 +68,7 @@ By setting in RUN.sh the **dataset_code_number="D2_NSL_KDD"**
 1. Process **D2_NSL_KDD.csv**
 2. Generate intermediate files: **D2_NSL_KDD_ACC.csv** and **D2_NSL_KDD_ACCURACIES.csv**
 3. Compute classifier weights and save them in the **WEIGHTS** folder
-4. Run inference, compute results and save them in **RESULTS** folder
+4. Run inference, compute results and save them in the **RESULTS** folder
 
 Upon successful execution of the script, you will see the following message:
 
