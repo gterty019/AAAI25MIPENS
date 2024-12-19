@@ -70,7 +70,7 @@ By setting in RUN.sh the **dataset_code_number="D2_NSL_KDD"**
 3. Compute weights and save them in the **WEIGHTS** folder
 4. Run inference, compute results and save them in **RESULTS** folder
 
-After successfully running the script, the following message is displayed:
+Upon successful execution of the script, you will see the following message:
 
 **Script execution completed.**
 
