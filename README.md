@@ -38,6 +38,7 @@ chmod +x RUN.sh
 2. Unnecessary lines are removed to produce the accuracy matrix for the classifiers
 
 **Step 2:** Weight Computation
+
 The following weighting schemes are applied, as explained in our paper:
 1.   Uniform Weights Per Classifier (UW, UW-PC in our paper)
 2.   Uniform Weights Per Classifier-Class (UW_PCA, UW-PCC in our paper)
@@ -48,6 +49,7 @@ The following weighting schemes are applied, as explained in our paper:
 7.   **MIP incorporating Elastic Net Regularization (MIPEN, MIP in our paper)**
 
 **Step 3:** Inference
+
 **Uncomment and customize the inference lines to use generated weights for evaluation:**
 python3 "$inference_scripts_folder/2_INFERENCE_ALGORITHM.py" --dataset $input_file --weights 0.12,0.12,... --output "$results_folder/1_NSL_UW.csv"
 
