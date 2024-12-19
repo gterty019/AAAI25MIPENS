@@ -10,9 +10,9 @@ To address the challenges of imbalanced multi-class datasets typically used for 
 The complete source code used in this research, including scripts for training, weight computation, and inference, is available in this repository to ensure the reproducibility of our results and provide a practical foundation for further research and development based on our work.
 
 # Prerequisites
-1. **Bash** **Shell**: Ensure that you have a Bash-compatible shell to execute the script.
+1. **Bash** **Shell**: Ensure that you have a Bash-compatible shell installed to execute the script.
 2. **Python 3.x:** The shell script calls several Python scripts. Ensure that Python 3 is installed and accessible via python3.
-3. **Python Dependencies:** Install any required libraries for the Python scripts. Common dependencies include:
+3. **Python Dependencies:** Install any required libraries for the Python scripts. Dependencies include:
    - numpy (https://numpy.org/)
    - pandas (https://pandas.pydata.org/)
    - scikit-learn (https://scikit-learn.org/stable/)
