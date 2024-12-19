@@ -52,7 +52,9 @@ The following weighting schemes are used, as explained in our paper:
 
 **Uncomment and customize the inference lines to use generated weights for evaluation:**
 
+```bash
 python3 "$inference_scripts_folder/2_INFERENCE_ALGORITHM.py" --dataset $input_file --weights 0.12,0.12,... --output "$results_folder/1_NSL_UW.csv"
+```
 
 All generated weights and inference results are saved in respective folders:
 
