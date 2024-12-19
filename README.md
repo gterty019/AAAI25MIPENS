@@ -68,13 +68,4 @@ At the end of the script, you will see:
 **Script execution completed.**
 
 # Contact
-For queries, feel free to raise an issue in the GitHub repository or contact the maintainers directly.
-
-
-
-
-
-
-
-
-
+For any queries, feel free to raise an issue in this GitHub repository or contact the maintainers directly.
